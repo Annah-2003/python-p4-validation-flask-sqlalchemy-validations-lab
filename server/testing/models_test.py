@@ -4,6 +4,8 @@ from app import app
 from models import db, Author, Post
 import logging
 from faker import Faker
+db.create_all()
+
 
 
 LOGGER = logging.getLogger(__name__)
